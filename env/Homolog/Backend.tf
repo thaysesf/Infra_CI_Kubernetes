@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-alura"
+    bucket = "api-go-bucket"
     key    = "Prod/terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-2"
   }
 }
