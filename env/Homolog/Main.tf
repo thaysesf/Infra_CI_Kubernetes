@@ -1,5 +1,5 @@
 module "prod" {
-    source = "../../infra"
+    source = "../../infra/EKS.tf"
     
     cluster_name = "homolog2"
 }
