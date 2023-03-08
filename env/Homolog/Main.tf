@@ -1,3 +1,7 @@
+include "root" {
+  path = find_in_parent_folders()
+}
+
 module "eks" {
   source = "terraform-aws-modules/eks/aws"
 
