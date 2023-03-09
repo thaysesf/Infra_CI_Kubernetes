@@ -25,7 +25,7 @@ provider "kubernetes" {
 
 resource "kubernetes_service" "LoadBalancer" {
   metadata {
-    name = "load-balancer-go-api"
+    name = "load-balancer-go"
   }
   spec {
     selector = {
