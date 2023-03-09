@@ -29,7 +29,7 @@ resource "kubernetes_service" "LoadBalancer" {
   }
   spec {
     selector = {
-      nome = "go"
+      app = "thayse-go"
     }
     port {
       port = 8000
