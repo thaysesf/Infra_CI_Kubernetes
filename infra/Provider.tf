@@ -33,7 +33,7 @@ resource "kubernetes_service" "LoadBalancer" {
     }
     port {
       port = 8000
-      target_port = 8000
+      target_port = 3000
     }
     type = "LoadBalancer"
   }
