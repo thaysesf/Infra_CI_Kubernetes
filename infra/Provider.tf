@@ -32,8 +32,8 @@ resource "kubernetes_service" "LoadBalancer" {
       nome = "go"
     }
     port {
-      port = 3000
-      target_port = 3000
+      port = 8000
+      target_port = 8000
     }
     type = "LoadBalancer"
   }
